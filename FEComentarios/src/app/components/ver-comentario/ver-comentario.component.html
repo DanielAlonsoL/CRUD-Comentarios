@@ -1,0 +1,11 @@
+<div class="spinner-border text-primary" role="status" *ngIf="loading">
+    <span class="sr-only">Loading...</span>
+</div>
+<div>
+    <h3>{{comentario.titulo}}</h3>
+    <h5>{{comentario.texto}}</h5>
+    <ul>
+        <li>{{comentario.creador}}</li>
+        <li>{{comentario.fechaCreacion | date:'dd/mm/yyyy'}}7</li>
+    </ul>
+</div>
